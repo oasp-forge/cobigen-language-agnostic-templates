@@ -5,9 +5,10 @@ package com.capgemini.cobigen.api.variable;
 import com.capgemini.cobigen.api.CobiGen;
 
 import net.sf.mmm.code.api.type.CodeGenericType;
+import x_rootpackage_x.general.common.api.ApplicationEntity;
 import x_rootpackage_x.general.common.api.to.AbstractEto;
 
-public class CobiGenVarPojoSuperClassEto extends AbstractEto implements CobiGenTypeVariable {
+public class CobiGenVarPojoSuperClassEto extends AbstractEto implements CobiGenTypeVariable, ApplicationEntity {
 
   @Override
   public String resolve() {

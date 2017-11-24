@@ -18,4 +18,10 @@ public interface Increments {
 
   String SOAP_SERVICE = "SoapService";
 
+  String DAO = "DAOs";
+
+  String UC = "UseCases";
+
+  String LOGIC = "Logic";
+
 }
